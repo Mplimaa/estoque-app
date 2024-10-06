@@ -54,7 +54,6 @@ No bash, após acessar o diretório do arquivo, instalar as dependencias do node
 Após logar, você será redirecionado para a tela de controle de estoque.
 Utilize a seção de busca para encontrar produtos específicos ou adicione novos produtos utilizando o formulário disponível.
 Para exportar o estoque, clique no botão "Baixar estoque".
-Caso preferir, você pode rodar o sistema conforme link anexo neste repositorio.
 
 6. **Dicas para Melhorias Futuras**: 
 
