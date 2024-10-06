@@ -1,0 +1,112 @@
+body {
+    position: relative;
+    background-size: cover;
+
+}
+
+
+  .container {
+            position: relative;
+            z-index: 2; /* Coloca o conteúdo acima do pseudo-elemento */
+            text-align: center;
+            padding: 15px;
+  	    background: #C0C0C0; /* Fundo cinza sólido */
+            border-radius: 8px; /* Bordas arredondadas */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra para destacar */
+            max-width: 600px; /* Largura máxima do container */
+            margin: 20px auto; /* Centraliza o container e adiciona margem superior */
+        }
+
+.busca-container {
+    display: flex; 
+    align-items: center; 
+    justify-content: flex-start; 
+    gap: 10px; 
+    margin-bottom: 20px; 
+}
+
+  .container2 {
+	    padding: 50px;
+            max-width: 400px; /* Define uma largura máxima */
+            background: rgba(255, 255, 255, 0.9); /* Fundo branco com leve transparência */
+            margin: 20px auto; /* Centraliza o container */
+            padding: 20px; /* Adiciona um pouco de espaço interno */
+            border: 1px solid #ccc; /* Borda para visualização */
+            border-radius: 10px; /* Borda arredondada */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra para destaque */
+            display: flex;
+            flex-direction: column; /* Alinha os campos verticalmente */
+	
+ }
+
+h1, h3 {
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+h2 {
+    color: #333;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+input[type="text"], input[type="number"], select {
+    padding: 10px; 
+    width: 220px; /* Largura fixa para manter o alinhamento */
+}
+
+input {
+    flex-direction: column; /* Faz os campos ocuparem o mesmo espaço */
+    padding: 220px ;
+    margin: 10px 0; /* Remove a margem superior e inferior */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 15px; /* Tamanho dos botões */
+    font-size: 14px; /* Tamanho da fonte dos botões */
+}
+
+button:hover {
+    background-color: #4cae4c; /* Cor ao passar o mouse */
+    transform: translateY(-2px); /* Levanta o botão um pouco */
+}
+
+#botaoSalvar { 
+    margin-top: 1	0px; /* Espaço abaixo do botão */
+
+    margin-bottom: 10px; /* Espaço abaixo do botão */
+    width: auto; /* O botão terá apenas a largura do conteúdo */
+    float: right; /* Faz o botão ficar à direita */	
+cursor: pointer;
+padding: 10px;
+}
+
+#botaoLogout {
+    margin-bottom: 10px; /* Espaço abaixo do botão */
+    width: auto; /* O botão terá apenas a largura do conteúdo */
+    float: right; /* Faz o botão ficar à direita */
+    background-color: #C0C0C0; /* Cor de fundo vermelha */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}

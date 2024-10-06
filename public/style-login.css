@@ -1,0 +1,31 @@
+.container2 {
+    padding: 20px;
+    max-width: 400px; /* Largura máxima */
+    background: #C0C0C0; /* Fundo cinza sólido */
+    margin: 20px auto; /* Centraliza o container */
+    border: 1px solid #ccc; /* Borda */
+    border-radius: 10px; /* Borda arredondada */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+    display: flex;
+    flex-direction: column; /* Alinha os campos verticalmente */
+}
+
+input[type="text"], input[type="password"], .button-login {
+    padding: 10px; /* Tamanho interno dos inputs e botão */
+    width: 100%; /* 100% da largura do container */
+    margin-bottom: 15px; /* Espaço abaixo de cada campo */
+    border: 1px solid #ccc; /* Borda */
+    border-radius: 4px; /* Bordas arredondadas */
+    box-sizing: border-box; /* Inclui padding e borda no cálculo da largura */
+}
+
+.button-login {
+    border: none; /* Remove a borda padrão */
+    background-color: #007bff; /* Cor do botão */
+    color: white; /* Cor do texto do botão */
+    cursor: pointer; /* Muda o cursor ao passar o mouse */
+}
+
+.button-login:hover {
+    background-color: #0056b3; /* Cor ao passar o mouse */
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+	
+</head>
+<body>  <title>Controle de Estoque</title>
+
+    <div class="container">
+	<button id="botaoLogout" onclick="fazerLogout()" title="Sair do sistema">Logout</button>
+ <br><br>
+        <h1>Controle de Estoque</h1>
+<br><br>
+
+	<!-- Bloco de Busca -->
+           <div class="busca-container">
+
+            <label for="tipoBusca">Buscar por:</label>
+            <select id="tipoBusca" title="Escolha o tipo de busca">
+                <option value="marca">Marca</option>
+                <option value="modelo">Modelo</option>
+                <option value="id">ID (Código)</option>
+            </select>
+            <input type="text" id="valorBusca" placeholder="Digite o valor para busca" title="Insira o ID, marca ou modelo do produto aqui e clique em Buscar">
+            <button id="botaoBuscar" onclick="buscarProduto()" title="Buscar produto">Buscar</button>
+	    <button id="botaoLimpar" onclick="limparBusca()" title="Limpar busca">Limpar</button>
+	</div>
+ <br><br>
+
+        <h3>Cadastrar/Editar Produto</h3>
+	<! --Removido campo código na tela, já que não é necessário digitar e é gerado automaticamente -->
+        <!-- <input type="text" id="codigoProduto" placeholder="Código do Produto" readonly> -->
+	<label>Produto:</label>
+        <input type="text" id="produto" placeholder="Nome do Produto" title="Insira o nome do produto aqui">
+	<label>Marca:</label>
+        <input type="text" id="marca" placeholder="Marca do Produto" title="Insira a marca do produto aqui">
+	<label>Modelo:</label>
+        <input type="text" id="modelo" placeholder="Modelo do Produto" title="Insira o modelo do produto aqui">
+	<label>Qtde:</label>
+        <input type="number" id="quantidade" placeholder="Quantidade" title="Insira a quantidade disponível">
+	<label>Custo:</label>
+        <input type="number" id="custo" placeholder="Custo Unitário em Reais" title="Insira o custo unitário em reais">
+	<label>Est.Mín:</label>
+        <input type="number" id="estoqueMinimo" placeholder="Estoque Mínimo" title="Insira a quantidade mínima em estoque">
+        <button id="botaoSalvar" onclick="adicionarProduto()" title="Salvar novo Cadastro ou editar cadastro">Salvar</button>
+<br><br><br><br>
+
+        <center><h3>Estoque Atual</h3></center>
+        <table id="tabelaEstoque"  title="Tabela dos produtos no estoque">
+            <thead>
+                <tr>
+		    <th>ID</th>
+                    <th>Produto</th>
+                    <th>Marca</th>
+                    <th>Modelo</th>
+                    <th>Qtd</th>
+                    <th>Valor</th>
+                    <th>Total</th>
+		    <th>Est.Min</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+<br>
+<button id="botaoSalvar" onclick="baixarEstoque()" title="baixar produtos cadastrados com arquivo .json">Baixar Estoque</button>
+<br><br><br><br><br>
+<p>Feito por Michele Lima 🤩 | 2024 Todos os direitos reservados</p>
+
+    </div>
+    <script src="login.js"></script>
+
+    <script src="estoque.js"></script>
+</body>
+</html>
