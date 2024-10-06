@@ -32,7 +32,7 @@ Este é um sistema simples de controle de estoque desenvolvido em HTML, CSS e Ja
 2. **Clone o repositório**:
    ```bash
    git clone https://github.com/Mplimaa/estoque-app.git
-   cd seu_repositorio
+   cd estoque-app
 
 
 3. **Instalação de Dependências**:
