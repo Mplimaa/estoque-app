@@ -12,8 +12,9 @@ Este é um sistema simples de controle de estoque desenvolvido em HTML, CSS e Ja
 - **Edição e Remoção**: Edite ou remova produtos já cadastrados através de botões na tabela de produtos.
 - **Busca de Produtos**: Consulte produtos no estoque utilizando filtros por marca, modelo ou ID.
 - **Download em JSON**: Exporte todos os produtos cadastrados em um arquivo JSON.
-- **Acessibilidade**: O sistema foi desenvolvido com acessibilidade em mente, permitindo que os usuários identifiquem elementos na tela ao passar o mouse.
+- **Acessibilidade**: O sistema foi desenvolvido com acessibilidade em mente, permitindo que os usuários identifiquem elementos na tela ao passar o mouse, e navegação via teclado.
 - **Login e Senha**: O sistema conta com uma funcionalidade de login para acessar o controle de estoque.
+- ***Observação***: No vídeo, não foram capturadas a acessibilidade e o download do arquivo, devido recurso limitado da ferramenta que gravou o vídeo, porém você pode baixar e verificar a autenticidade da implementação.
 
 ## Tecnologias Utilizadas
 
@@ -55,7 +56,15 @@ Após logar, você será redirecionado para a tela de controle de estoque.
 Utilize a seção de busca para encontrar produtos específicos ou adicione novos produtos utilizando o formulário disponível.
 Para exportar o estoque, clique no botão "Baixar estoque".
 
-6. **Dicas para Melhorias Futuras**: 
+
+6. **Acessibilidade**: 
+O Estoque App foi desenvolvido com atenção à acessibilidade para garantir que todos os usuários possam interagir de maneira eficaz. As seguintes práticas foram implementadas:
+
+Navegação por Teclado: Todos os elementos interativos, como botões e campos de entrada, podem ser acessados e utilizados apenas com o teclado.
+Etiquetas e Descrições: Os campos de entrada possuem label apropriados, garantindo que leitores de tela possam descrever os campos de forma precisa.
+
+
+7. **Dicas para Melhorias Futuras**: 
 
 Implementar um backend para armazenar os dados em um banco de dados.
 Adicionar autenticação com sistema de usuários e senhas mais seguras.
