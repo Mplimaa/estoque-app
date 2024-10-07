@@ -14,7 +14,7 @@ Este é um sistema simples de controle de estoque desenvolvido em HTML, CSS e Ja
 - **Download em JSON**: Exporte todos os produtos cadastrados em um arquivo JSON.
 - **Acessibilidade**: O sistema foi desenvolvido com acessibilidade em mente, permitindo que os usuários identifiquem elementos na tela ao passar o mouse, e navegação via teclado.
 - **Login e Senha**: O sistema conta com uma funcionalidade de login para acessar o controle de estoque.
-- ***Observação***: No vídeo, não foram capturadas a acessibilidade e o download do arquivo, devido recurso limitado da ferramenta que gravou o vídeo, porém você pode baixar e verificar a autenticidade da implementação.
+- ***Observação***: No vídeo Demonstração-estoque-app, não foram capturadas a acessibilidade e o download do arquivo, devido recurso limitado da ferramenta que gravou o vídeo, porém você pode baixar e verificar a autenticidade da implementação.
 
 ## Tecnologias Utilizadas
 
