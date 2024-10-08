@@ -49,7 +49,7 @@ Se você estiver utilizando um servidor Node.js, instale as dependências necess
 
 5. **Como Usar**: 
 
-No bash, após acessar o diretório do arquivo, instalar as dependencias do node e/ou baixar, já pode iniciar o npm no lado servidor. Assim que node.server tiver iniciado, acessar o seu navegador e digitar http://localhost:3000/login , para acessar a página de login e inserir as credenciais a seguir:
+No CMD, após acessar o diretório do arquivo, instalar as dependencias do node e/ou baixar, já pode iniciar o npm no lado servidor. Assim que node.server tiver iniciado, acessar o seu navegador e digitar http://localhost:3000/login , para acessar a página de login e inserir as credenciais a seguir:
    Usuário: admin
    Senha: senha123
 Após logar, você será redirecionado para a tela de controle de estoque.
