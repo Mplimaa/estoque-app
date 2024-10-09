@@ -71,10 +71,10 @@ Adicionar autenticação com sistema de usuários e senhas mais seguras.
 Melhorar a interface com um framework CSS, como Bootstrap ou Tailwind.
 Adicionar validações mais robustas para entradas do usuário.
 Implementar responsividade, e efetuar testes unitários para as funções JavaScript.
-
+Atender outros requisitos pertinentes ao controle do estoque, a medida que for surgindo e ter a necessidade de incluir.
 
 **Licença**: 
 
 Este projeto simples de estoque, pode ser modificado e está disponível, desde que seja usuado para fins de estudo e não para uso comercial. O sistema estoque-app foi feito por Michele Lima 🤩 | 2024 Todos os direitos reservados.
-Baseado no controle de estoque sugerido pelo Sebrae SP para microempreendedores, assim fui implementando algo que pensei ser útil, mas de maneira simples para facilitar o controle e manutenção do cadastro dos produtos.
+Baseado no controle de estoque sugerido pelo Sebrae SP para microempreendedores, mas somente segui o critério de entrada de produtos, e a saída, baseada no estoque mínimo, sem o registro dos fornecedores nesta versão. Assim fui implementando algo que pensei ser útil, mas de maneira simples para facilitar o controle e manutenção do cadastro dos produtos.
 
