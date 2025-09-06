@@ -75,6 +75,6 @@ Atender outros requisitos pertinentes ao controle do estoque, a medida que for s
 
 **Licença**: 
 
-Este projeto simples de estoque, pode ser modificado e está disponível, desde que seja usuado para fins de estudo e não para uso comercial. O sistema estoque-app foi feito por Michele Lima 🤩 | 2024 Todos os direitos reservados.
+Este projeto simples de estoque, pode ser modificado e está disponível, desde que seja usuado para fins de estudo e não para uso comercial. 
 Baseado no controle de estoque sugerido pelo Sebrae SP para microempreendedores, mas somente segui o critério de entrada de produtos, e a saída, baseada no estoque mínimo, sem o registro dos fornecedores nesta versão. Assim fui implementando algo que pensei ser útil, mas de maneira simples para facilitar o controle e manutenção do cadastro dos produtos.
 
